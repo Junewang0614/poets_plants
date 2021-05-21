@@ -1,0 +1,34 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.button1, .button2, .button3{
+    border-radius: px;
+    height: 5px;
+    width: 5px;
+    background-color: black;
+}
+img{
+    height: 125%;
+}
+
+.btn-div{
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flex; 
+    flex-direction:row;
+}
+
+#page{
+    background-size: cover;
+    background-image: url('../img/bg1.jpg');
+}
+
+#main-index{
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
