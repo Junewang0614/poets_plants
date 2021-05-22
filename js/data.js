@@ -1043,5 +1043,5 @@ function change(n) {
     //画图
     var era_dom = $('#content' + n).find(".era_chart")[0]
     piant_eras(era_dom, n - 1);
-    
+    drawWC(n, 'wc'+n);
 }

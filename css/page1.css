@@ -49,7 +49,7 @@ body{
     display: flex;
     width: 80%;
     /* margin: 6% auto 0 auto; */
-    border:solid pink;
+    /* border:solid pink 5px; */
     position: relative;
     height:97%;
 }
@@ -85,4 +85,27 @@ body{
 }
 .info-div p span{
     color:rgb(202,122,85);
+}
+
+.wc-div{
+    width: 90%;
+    height:95%;
+    /* border: yellow; */
+    margin:6% auto 0 auto;
+}
+.map-title{
+    font-family: myfont2;
+    text-align: center;
+    height: 5%;
+    margin-top: -10%;
+}
+.poet-div{
+    font-family: myfont2;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    margin: 15% auto;
+    font-size: large;
+    /* padding-top:5%; */
+    padding-right: 12%;
 }
